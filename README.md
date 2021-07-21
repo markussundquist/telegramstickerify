@@ -10,12 +10,12 @@ It also converts them to the required .png format
 
 This script supports the following image formats:
 
--.jpg
--.jpeg
--.png
--.gif
--.tif
--.tiff
+.jpg,
+.jpeg,
+.png,
+.gif,
+.tif,
+.tiff,
 
 ## Why
 I did this, because I really hate the process of manually resizing images and changing their formats
