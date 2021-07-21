@@ -22,12 +22,12 @@ def new_folder():
 
     return directory
 
-def choose_bigger_axis(s_image): #Checks which axis is the largersti one and then resizes it to be 300px. "remember //"
+def choose_bigger_axis(s_image): #Checks which axis is the largersti one and then resizes it to be 512px. 
     x, y = s_image.size
     if x > y:       
-        return 300, round(((300*y)/x))            #dodgy scaling function, that makes sure that the largest axis is 300px long
+        return 512, round(((512*y)/x))            #dodgy scaling function, that makes sure that the largest axis is 512px long
     else:
-        return round(((300*x)/y)), 300
+        return round(((512*x)/y)), 512
 
 ### Main program starts here ############################
 #Iterate through directory and resize every .jpg or .png
@@ -52,4 +52,3 @@ for filename in os.listdir(old_folder):
         modify_file.save(save ,"PNG")
         shutil.move(save, working_folder)
         i += 1
-  
