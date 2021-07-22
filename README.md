@@ -1,10 +1,10 @@
 # telegramstickerify
-A simple scripts that turns image files into Telegram's sticker compatible format.
+A simple script that turns image files into a Telegram sticker compatible format.
 
 Tested on Windows, but should run in all UNIX type operating systems
 
 ## What it does in detail
-This script scales images to a size, where the longest axis 512px large
+This script scales images to a size, where the longest axis is 512px large
 
 It also converts them to the required .png format
 
